@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CA1_11802090_CSE225</string>
+    <string name="RegNo">11802090</string>
+    <string name="myname">Divyanshu Tiwari</string>
+    <string name="mob">+919454900674</string>
+    <string name="rate">Rate My App</string>
+    <string name="survey">Take a Survey</string>
+    <string name="email">Gmail</string>
+    <string name="github_profile">deadshot674gam</string>
+    <string name="android_developer">ANDROID DEVELOPER</string>
+    <string name="question1">Which Operating System do you use?</string>
+</resources>
