@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007c80"
+    android:orientation="vertical"
+    android:id="@+id/lay"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:id="@+id/topBar_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/charInfoBtn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/RegNo"
+            android:textColor="#ff0000"
+            android:visibility="visible"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+    </RelativeLayout>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp">
+       <ScrollView
+           android:id="@+id/scrollView"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#007c80"
+           android:layout_marginBottom="20dp"
+           tools:ignore="ExtraText">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="287dp"
+                   android:layout_marginHorizontal="90dp"
+                   android:layout_marginTop="20dp"
+                   android:contentDescription="@string/myname"
+                   android:padding="10sp"
+                   android:src="@drawable/profile" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/myname"
+                   android:textColor="#ffffff"
+                   android:textSize="40sp"
+                   android:layout_marginHorizontal="50dp"
+                   android:fontFamily="@font/pacifico_fam"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/android_developer"
+                   android:textColor="#ffffff"
+                   android:textSize="26sp"
+                   android:layout_marginHorizontal="80dp"
+                   android:fontFamily="@font/sourcesanspro"/>
+
+               <Button
+                   android:layout_width="match_parent"
+                   android:layout_height="43dp"
+                   android:layout_marginHorizontal="30dp"
+                   android:layout_marginVertical="10dp"
+                   android:drawableLeft="@drawable/ic_baseline_phone_24"
+                   android:paddingLeft="20dp"
+                   android:textColor="#000000"
+                   android:paddingRight="100dp"
+                   android:text="@string/mob"
+                   android:id="@+id/tel"
+                   android:backgroundTint="#ffffff"
+                   android:background="@drawable/round"
+                   android:drawableStart="@drawable/ic_baseline_phone_24" />
+               <Button
+                   android:layout_width="match_parent"
+                   android:layout_height="43dp"
+                   android:layout_marginHorizontal="30dp"
+                   android:layout_marginVertical="10dp"
+                   android:drawableLeft="@drawable/ic_baseline_alternate_email_24"
+                   android:paddingLeft="20dp"
+                   android:paddingVertical="10dp"
+                   android:textColor="#000000"
+                   android:paddingRight="100dp"
+                   android:textAllCaps="false"
+                   android:text="@string/email"
+                   android:id="@+id/email"
+                   android:backgroundTint="#ffffff"
+                   android:background="@drawable/round"/>
+               <Button
+                   android:layout_width="match_parent"
+                   android:layout_height="43dp"
+                   android:layout_marginHorizontal="30dp"
+                   android:layout_marginVertical="10dp"
+                   android:drawableLeft="@drawable/ic_githu"
+                   android:paddingLeft="20dp"
+                   android:id="@+id/githu"
+                   android:textColor="#000000"
+                   android:paddingRight="100dp"
+                   android:text="@string/github_profile"
+                   android:textAllCaps="false"
+                   android:backgroundTint="#ffffff"
+                   android:background="@drawable/round"/>
+               <Button
+                   android:layout_width="match_parent"
+                   android:layout_height="43dp"
+                   android:layout_marginHorizontal="30dp"
+                   android:layout_marginVertical="10dp"
+                   android:drawableLeft="@drawable/ic_baseline_question_answer_24"
+                   android:paddingLeft="20dp"
+                   android:paddingVertical="5dp"
+                   android:textColor="#000000"
+                   android:paddingRight="100dp"
+                   android:text="@string/survey"
+                   android:id="@+id/survey"
+                   android:textAllCaps="false"
+                   android:backgroundTint="#ffffff"
+                   android:background="@drawable/round"/>
+               <Button
+                   android:layout_width="match_parent"
+                   android:layout_height="43dp"
+                   android:layout_marginHorizontal="30dp"
+                   android:layout_marginVertical="10dp"
+                   android:drawableLeft="@drawable/ic_baseline_star_rate_24"
+                   android:paddingLeft="20dp"
+                   android:textColor="#000000"
+                   android:paddingRight="100dp"
+                   android:textAllCaps="false"
+                   android:text="@string/rate"
+                   android:id="@+id/rate_my_app"
+                   android:backgroundTint="#ffffff"
+                   android:background="@drawable/round" />
+           </LinearLayout>
+
+
+       </ScrollView>
+   </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottomBar_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#007c80">
+
+        <TextView
+            android:id="@+id/genApplyBtn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/RegNo"
+            android:textColor="#ff0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

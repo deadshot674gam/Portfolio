@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007c80">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="25sp"
+        android:background="@drawable/round"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:background="@drawable/round"
+            android:orientation="vertical"
+            android:backgroundTint="#007c80">
+
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:id="@+id/progress_bar"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:id="@+id/question"
+                android:text="@string/question1"
+                android:textSize="20sp"
+                android:layout_margin="16dp"
+                />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LINUX"
+                    android:id="@+id/option1"
+                    />
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Windows"
+                    android:id="@+id/option2"
+                    />
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Macintosh"
+                    android:id="@+id/option3"
+                    />
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Android"
+                    android:id="@+id/option4"
+                    />
+            </RadioGroup>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round"
+                android:layout_margin="20dp"
+                android:text="Next"
+                android:id="@+id/next"
+                android:textColor="#000"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
