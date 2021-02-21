@@ -19,7 +19,7 @@
             android:id="@+id/t1"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="#fff">
+            android:background="#a7b0a9">
 
             <TextView
                 android:layout_width="match_parent"
@@ -28,11 +28,11 @@
                 android:fontFamily="@font/sourcesanspro"
                 android:text="@string/divyanshu_ca1"
                 android:gravity="left"
-                android:textColor="#000"
+                android:textColor="#fff"
                 android:textSize="25sp"
-                android:drawableLeft="@drawable/ic_githu"
                 android:textStyle="italic"
-                tools:ignore="RtlHardcoded" />
+                tools:ignore="RtlHardcoded"
+                app:drawableLeftCompat="@drawable/ic_githu" />
         </androidx.appcompat.widget.Toolbar>
 
         <TextView
@@ -70,7 +70,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="287dp"
                     android:layout_marginHorizontal="90dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="1dp"
                     android:contentDescription="@string/myname"
                     android:padding="10sp"
                     android:src="@drawable/profile" />

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+    <item
+        android:title="@string/_8_17"
+        android:id="@+id/tgpa1"
+        />
+    <item
+        android:title="@string/_7_85"
+        android:id="@+id/tgpa2"
+        />
+    <item
+        android:title="@string/_7_50"
+        android:id="@+id/tgpa3"
+        />
+    <item
+        android:id="@+id/tgpa4"
+        android:title="@string/_6_80"
+        />
+</menu>

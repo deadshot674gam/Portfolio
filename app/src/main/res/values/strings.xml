@@ -9,4 +9,15 @@
     <string name="github_profile">deadshot674gam</string>
     <string name="android_developer">ANDROID DEVELOPER</string>
     <string name="question1">Which Operating System do you use?</string>
+    <string name="linux">LINUX</string>
+    <string name="windows">Windows</string>
+    <string name="macintosh">Macintosh</string>
+    <string name="android">Android</string>
+    <string name="next">Next</string>
+    <string name="submit">submit</string>
+    <string name="_8_17">8.17</string>
+    <string name="_7_85">7.85</string>
+    <string name="_7_50">7.50</string>
+    <string name="_6_80">6.80</string>
+    <string name="divyanshu_ca1">Divyanshu CA1</string>
 </resources>

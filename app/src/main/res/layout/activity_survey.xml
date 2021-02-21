@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007c80"
+    tools:context=".SurveyForm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="25sp"
+        android:background="@drawable/round"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:background="@drawable/round"
+            android:orientation="vertical"
+            android:backgroundTint="#007c80"
+            tools:ignore="UnusedAttribute">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:id="@+id/question"
+                android:text="@string/question1"
+                android:textSize="20sp"
+                android:layout_margin="16dp"
+                />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/group_"
+                android:layout_margin="16dp">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/linux"
+                    android:id="@+id/option1"
+                    />
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/windows"
+                    android:id="@+id/option2"
+                    />
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/macintosh"
+                    android:id="@+id/option3"
+                    />
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/android"
+                    android:id="@+id/option4"
+                    />
+            </RadioGroup>
+
+
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progress_bar"
+                android:max="100"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginVertical="2dp"
+                android:progress="0"
+                android:minWidth="200dp"
+                android:layout_marginLeft="180dp"
+                android:indeterminate="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="60dp"
+                    android:background="@drawable/round"
+                    android:text="@string/next"
+                    android:textColor="#000"
+                    android:layout_marginEnd="60dp" />
+
+                <Button
+                    android:id="@+id/submit_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/round"
+                    android:enabled="false"
+                    android:text="@string/submit"
+                    android:textColor="#000" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
